@@ -1,0 +1,8 @@
+
+
+/bin
+/vendor
+/terraform_test/registry.terraform.io
+.terraform.lock.hcl
+
+terraform.tfstate

@@ -1,11 +1,8 @@
 module DEMO__Terraform_provider_test
 
-go 1.20
+go 1.18
 
-require (
-	github.com/hashicorp/terraform-plugin-sdk v1.1.1
-	github.com/hashicorp/terraform-plugin-sdk/v2 v2.26.1
-)
+require github.com/hashicorp/terraform-plugin-sdk/v2 v2.26.1
 
 require (
 	github.com/agext/levenshtein v1.2.2 // indirect
@@ -20,7 +17,6 @@ require (
 	github.com/hashicorp/go-plugin v1.4.8 // indirect
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
-	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.16.2 // indirect
 	github.com/hashicorp/logutils v1.0.0 // indirect
 	github.com/hashicorp/terraform-plugin-go v0.14.3 // indirect
